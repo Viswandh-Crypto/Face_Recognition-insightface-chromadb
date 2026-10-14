@@ -39,6 +39,8 @@ In the current implementation, Haar Cascade is used for initial group-photo dete
 <img width="1774" height="887" alt="Face Recognition Project Workflow" src="https://github.com/user-attachments/assets/9164e6e1-269a-4a83-8994-0bd0f96b5168" />
 
 
+The workflow has two stages: **building the face database** from a group photo and **searching for the closest match** from an uploaded query photo. Haar Cascade handles initial group-photo detection, InsightFace generates face embeddings, and ChromaDB retrieves the nearest candidates using cosine distance. An experimental threshold helps reject low-confidence matches.
+
 The project consists of two main stages:
 
 ### 1️⃣ Face Database Creation
