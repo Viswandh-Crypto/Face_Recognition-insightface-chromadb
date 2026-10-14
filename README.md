@@ -36,7 +36,7 @@ In the current implementation, Haar Cascade is used for initial group-photo dete
 
 ## 🔄 Project Workflow
 
-![Face Recognition Project Workflow](assets/face-recognition-workflow.png)
+![Face Recognition Project Workflow]
 
 The project consists of two main stages:
 
